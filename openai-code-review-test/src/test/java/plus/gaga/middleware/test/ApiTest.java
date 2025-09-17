@@ -17,6 +17,8 @@ public class ApiTest {
         System.out.println(Integer.parseInt("xfg"));
         System.out.println(Integer.parseInt("aaa"));
         System.out.println(Integer.parseInt("123abc"));
+        System.out.println(Integer.parseInt("123"));
+
     }
 
 }
