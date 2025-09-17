@@ -15,6 +15,13 @@ public class ApiTest {
     public void test() {
         System.out.println(Integer.parseInt("111"));
 
+        int sum = sum(10, 19);
+        System.out.println(sum);
+
+
+    }
+    public static int sum(int a,int b){
+        return a+b;
     }
 
 }
