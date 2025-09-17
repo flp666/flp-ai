@@ -16,12 +16,25 @@ public class ApiTest {
         System.out.println(Integer.parseInt("111"));
 
         int sum = sum(10, 19);
+        int mix = mix(10, 19);
+        int minus = minus(10, 19);
+
         System.out.println(sum);
+        System.out.println(mix);
+        System.out.println(minus);
 
     }
     public static int sum(int a,int b){
         return a+b;
     }
+    public static int mix(int a,int b){
+        return a*b;
+    }
+    public static int minus(int a,int b){
+        return a-b;
+    }
+
+
 
 
 }
