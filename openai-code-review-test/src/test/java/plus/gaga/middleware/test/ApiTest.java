@@ -23,6 +23,8 @@ public class ApiTest {
         System.out.println(mix);
         System.out.println(minus);
 
+        System.out.println("哈哈哈哈哈哈或");
+
     }
     public static int sum(int a,int b){
         return a+b;
@@ -33,6 +35,8 @@ public class ApiTest {
     public static int minus(int a,int b){
         return a-b;
     }
+
+
 
 
 
