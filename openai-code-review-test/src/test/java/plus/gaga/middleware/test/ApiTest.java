@@ -14,6 +14,9 @@ public class ApiTest {
     @Test
     public void test() {
         System.out.println(Integer.parseInt("flp"));
+        System.out.println(Integer.parseInt("xfg"));
+        System.out.println(Integer.parseInt("aaa"));
+        System.out.println(Integer.parseInt("123abc"));
     }
 
 }
