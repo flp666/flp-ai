@@ -12,8 +12,7 @@ import plus.gaga.middleware.sdk.infrastructure.weixin.WeiXin;
 public class OpenAiCodeReview {
 
     private static final Logger logger = LoggerFactory.getLogger(OpenAiCodeReview.class);
-/*
-    // 微信配置
+    /*  // 微信配置
     private String weixin_appid = "wxc173e872c2d6136a";
     private String weixin_secret = "fb02ae805fe4f9c13a622e74655c56e0";
     private String weixin_touser = "on-Wuvu2FC1U8x62GCLpmkijfKCQ";
