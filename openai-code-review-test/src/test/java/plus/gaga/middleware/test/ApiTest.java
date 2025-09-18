@@ -13,9 +13,8 @@ public class ApiTest {
 
     @Test
     public void test() {
-        System.out.println("相亲相爱一家人");
-
-        System.out.println(1>2);
+        int a = Integer.parseInt("a");
+        System.out.println(a);
 
     }
 
