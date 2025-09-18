@@ -15,30 +15,13 @@ public class ApiTest {
     public void test() {
         System.out.println(Integer.parseInt("111"));
 
-        int sum = sum(10, 19);
-        int mix = mix(10, 19);
-        int minus = minus(10, 19);
-
-        System.out.println(sum);
-        System.out.println(mix);
-        System.out.println(minus);
-
-        System.out.println("哈哈哈哈哈哈或");
-
+        int[] arr = {8,0,7,2,9};
+        for (int i = 0; i < arr.length; i++) {
+            if(arr[i]>arr[0]){
+                arr[0] = arr[i];
+            }
+        }
+        System.out.println(arr[0]);
     }
-    public static int sum(int a,int b){
-        return a+b;
-    }
-    public static int mix(int a,int b){
-        return a*b;
-    }
-    public static int minus(int a,int b){
-        return a-b;
-    }
-
-
-
-
-
 
 }
