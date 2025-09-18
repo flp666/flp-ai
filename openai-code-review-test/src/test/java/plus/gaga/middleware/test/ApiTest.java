@@ -13,8 +13,7 @@ public class ApiTest {
 
     @Test
     public void test() {
-        int a = Integer.parseInt("8888");
-        System.out.println(a);
+        System.out.println(1>2);
 
     }
 
