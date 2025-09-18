@@ -1,6 +1,6 @@
 package plus.gaga.middleware.sdk.test;
 
-import plus.gaga.middleware.sdk.utils.BearerTokenUtils;
+import plus.gaga.middleware.sdk.types.utils.BearerTokenUtils;
 
 public class ApiTest {
 

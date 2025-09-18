@@ -1,4 +1,4 @@
-package plus.gaga.middleware.sdk.utils;
+package plus.gaga.middleware.sdk.types.utils;
 
 import com.alibaba.fastjson2.JSON;
 
@@ -15,6 +15,10 @@ public class WXAccessTokenUtils {
     private static final String URL_TEMPLATE = "https://api.weixin.qq.com/cgi-bin/token?grant_type=%s&appid=%s&secret=%s";
 
     public static String getAccessToken() {
+        return getAccessToken(APPID, SECRET);
+    }
+
+    public static String getAccessToken(String APPID, String SECRET) {
         try {
             String urlString = String.format(URL_TEMPLATE, GRANT_TYPE, APPID, SECRET);
             URL url = new URL(urlString);

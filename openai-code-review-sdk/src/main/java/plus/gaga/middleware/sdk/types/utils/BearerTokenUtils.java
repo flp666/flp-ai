@@ -1,4 +1,4 @@
-package plus.gaga.middleware.sdk.utils;
+package plus.gaga.middleware.sdk.types.utils;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
