@@ -12,12 +12,12 @@ import plus.gaga.middleware.sdk.infrastructure.weixin.WeiXin;
 public class OpenAiCodeReview {
 
     private static final Logger logger = LoggerFactory.getLogger(OpenAiCodeReview.class);
-
+/*
     // 微信配置
-    private String weixin_appid = "wx5a228ff69e28a91f";
-    private String weixin_secret = "0bea03aa1310bac050aae79dd8703928";
-    private String weixin_touser = "or0Ab6ivwmypESVp_bYuk92T6SvU";
-    private String weixin_template_id = "l2HTkntHB71R4NQTW77UkcqvSOIFqE_bss1DAVQSybc";
+    private String weixin_appid = "wxc173e872c2d6136a";
+    private String weixin_secret = "fb02ae805fe4f9c13a622e74655c56e0";
+    private String weixin_touser = "on-Wuvu2FC1U8x62GCLpmkijfKCQ";
+    private String weixin_template_id = "d4en90AKlQNOkLaaEcNvH0jSp4cjBNSW3JSi18Nx_Us";
 
     // ChatGLM 配置
     private String chatglm_apiHost = "https://open.bigmodel.cn/api/paas/v4/chat/completions";
@@ -30,7 +30,7 @@ public class OpenAiCodeReview {
     // 工程配置 - 自动获取
     private String github_project;
     private String github_branch;
-    private String github_author;
+    private String github_author;*/
 
     public static void main(String[] args) throws Exception {
         GitCommand gitCommand = new GitCommand(
